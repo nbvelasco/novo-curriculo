@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body p {
+    font-size: 14px;
+}
+
+.cabecalho-campo {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.cabecalho-parte1 {
+    padding: 0 120px;
+    background-color: #000;
+    color: #fff;
+}
+
+.cabecalho-meu-nome {
+    font-size: 24px;
+}
+
+.cabecalho-habilidade-principal {
+    margin: 10px 0;
+}
+
+.cabecalho-parte2 {
+    margin: 5px 0;
+}
+
+.cabecalho-parte2 p {
+    margin: 10px 0;
+}
+
+hr {
+    height: 4px;
+    background-color: #000;
+}
+
+.corpo-curriculo {
+    margin: 10px 0;
+}
+
+.corpo-curriculo p {
+    font-weight: 700;
+}
+
+.corpo-titulos {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.corpo-experiencia-profissional p, .corpo-formacao-academica p, .corpo-tecnologias p, .corpo-certificacoes p, .corpo-idiomas p {
+    margin: 10px 0;
+}
+
+.texto-bolinha {
+    line-height: 16px;
+    padding-left: 15px;
+}
+
